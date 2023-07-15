@@ -1,4 +1,5 @@
 // array destructuring 
+//all set okay
 const myArray = ["value1", "value2", "value3","value4"];
 // let myvar1 = myArray[0];
 // let myvar2 = myArray[1];
