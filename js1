@@ -147,7 +147,40 @@ for(let user of users){
     console.log(user.firstName);
 }
 
-//CALL BACK HELL
+//CALL BIND AND APPLY
+
+-CALL
+
+const person1={
+    name:'abhishek',
+    designation:'software developer',
+    Age:22,
+    get_details:function printdetails(){
+        console.log(this);
+    }
+}
+const person2={
+    name:'Anuj',
+    designation:'software developer2',
+    Age:24,
+    // get_details:function printdetails(){
+    //     console.log(this);
+    // }
+}
+
+person1.get_details.call(person2);
+
+call can we used in when the function is outside of objects and need to use that function along with objectsdetails we simply use call methid
+check out google
+
+APPLY-
+IN APPLY METHOD WE CAN PASS THE ARRAY AS A ARGUMENT BUT NOT IN CASE OF CALL 
+
+BIND-
+WE CAN COPY THE FUNCTION AND INVOKE THE FUNCTION LATER
+
+
+
 
 
 
