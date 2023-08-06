@@ -179,6 +179,28 @@ IN APPLY METHOD WE CAN PASS THE ARRAY AS A ARGUMENT BUT NOT IN CASE OF CALL
 BIND-
 WE CAN COPY THE FUNCTION AND INVOKE THE FUNCTION LATER
 
+FILTER FUNCTION IN JAVASCRIPT  -most important
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+
+function checkAdult(age) {
+  return age >= 18;
+}
+
+//MAP FUNCTIOMN
+const numbers = [65, 44, 12, 4];
+const newArr = numbers.map(myFunction)
+
+function myFunction(num) {
+  return num * 10;
+}
+OR 
+CONST newarr =numbers.map((num)=>{
+return num*10
+})
+console.log(newarr)--650,440,120,40
+
+
 
 
 
