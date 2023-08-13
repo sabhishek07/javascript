@@ -1,0 +1,18 @@
+
+.table_1{
+    margin-top:20px;
+    overflow: scroll;
+    height:400px;
+   
+
+}
+.table_1 tr{
+    display: flex;
+    justify-content: space-between;
+}
+.table_1 td{
+    padding:0.5rem;
+}
+.table_1 tr:nth-of-type(odd){
+    background-color: coral;
+}
